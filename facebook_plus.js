@@ -1,6 +1,6 @@
 $(function() {
   
-  var facebook_sharer = 'http://www.facebook.com/sharer/sharer.php?u=';
+  var facebook_sharer = 'http://www.facebook.com/sharer/sharer.php?u=%u&amp;t=%t';
   
   var profile_link = $('.a-b-Rf-dB');
   
@@ -24,9 +24,13 @@ $(function() {
       $share = $(share);
       $share.click(function() {
         // console.log($menu.parent().find(user_link_selector));
+        //TODO add visibility (Public/Limited)
+        var title = profile_name + " shared something on Google+";
         var target = $menu.parent().find('a[href^="' + profile_id + '/posts"]').attr('href');
-        console.log('open', target);
-        window.open(facebook_sharer + encodeURIComponent('http://plus.google.com/' + target, '', 'width=200,height=100'));
+        var url = 'http://plus.google.com/' + target;
+        console.log('share', url);
+        //TODO make title work (FB may have disabled this)
+        window.open(facebook_sharer.replace(/\%u/, encodeURIComponent(url)).replace(/\%t/, encodeURIComponent(title)), '', 'width=200,height=80');
       });
       $menu.append($share);
     }
