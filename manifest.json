@@ -1,0 +1,9 @@
+{
+  "name": "Facebook+",
+  "version": "0.1",
+  "description": "Publish Posts from Google+ to Facebook",
+  "content_scripts": [{
+    "matches": ["https://plus.google.com/*"],
+    "js": ["jquery-1.6.2.min.js", "facebook_plus.js"]
+  }]
+}
