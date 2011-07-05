@@ -7,10 +7,10 @@ Right now, it works like this:
 
 * Post your comment on Google+
 * Reload the page (this won't be necessary in future releases)
-* Click on the _Menu Button_ on the right of your post
+* Click on the _Menu_ Button to the right of your post
 * There should be a menu item named *Post to Facebook*
-* Click on it.
-* A popup will open to share your post to Facebook
+* Click on it
+* A popup _should_ open to share your post to Facebook
 
 ## Installation ##
 For now, you will have to download the project here on GitHub, extract it, and
@@ -25,3 +25,8 @@ Once this is stable, the extension will be available from the _Google Chrome Ext
 
 ### Less important ###
 * There is no hightlighting when you hover over _Post to Facebook_
+
+## Bugs & Feedback ##
+For more Information, please contact me at my [Google+ Profile](http://gplus.to/amiuhle).
+
+If you have found any Bugs, please fix them, or report them to me here on GitHub!
