@@ -21,6 +21,7 @@ Once this is stable, the extension will be available from the _Google Chrome Ext
 ## Known Bugs ##
 
 ### Important ###
+* It _might_ make your Google+ tab crash. Looking into that already...
 * _Post to Facebook_ will only appear on Links that are available when the page loads
 
 ### Less important ###
